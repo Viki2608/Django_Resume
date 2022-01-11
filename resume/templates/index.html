@@ -167,8 +167,9 @@
   <div class="education-section px-3 px-lg-4 pb-4">
 
     <h2 class="h3 mb-4">Projects</h2>
-    {% for project in projects %}
+    
     <div class="timeline">
+      {% for project in projects %}
       <div class="timeline-card timeline-card-success card shadow-sm">
         <div class="card-body">
           <div class="h5 mb-1">{{project.name}}</div>
